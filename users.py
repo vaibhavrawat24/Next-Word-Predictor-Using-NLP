@@ -111,7 +111,7 @@ while quit == False:
         next_word = predict_next_word(typed,chain,order)
         print("Prediction :    {nw}".format(nw = next_word))
 
-# exiting
+
 save = input("Do you wish to save your input? (y/n) ")
 if save in ['y', 'yes', 'YES', 'Y']:
     with open("user_input.txt","w") as f:

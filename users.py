@@ -112,6 +112,7 @@ while quit == False:
         print("Prediction :    {nw}".format(nw = next_word))
 
 #save context
+#here
 save = input("Do you wish to save your input? (y/n) ")
 if save in ['y', 'yes', 'YES', 'Y']:
     with open("user_input.txt","w") as f:

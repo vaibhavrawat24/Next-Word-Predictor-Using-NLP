@@ -110,7 +110,7 @@ while quit == False:
     else:
         next_word = predict_next_word(typed,chain,order)
         print("Prediction :    {nw}".format(nw = next_word))
-
+#imp
 #save context
 #here
 #heeer

@@ -52,7 +52,7 @@ def load_markov_chain(order):
         print("Type 3 to load 3rd order Markov Chain")
         sys.exit(0)
 
-#prediction for function
+#prediction for function of word
 def predict_next_word(state, chain, order):
     """
     Predicts the next word that will be typed.

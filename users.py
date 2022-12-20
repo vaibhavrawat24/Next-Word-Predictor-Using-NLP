@@ -10,7 +10,7 @@ Description: For user to run.
 
 from chain import MarkovChain
 import sys
-#definition
+#definition of fun
 def load_markov_chain(order):
     """
     Loads the trained markov chain

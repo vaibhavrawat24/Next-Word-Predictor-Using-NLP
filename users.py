@@ -124,4 +124,4 @@ if retrain in ['y', 'yes', 'YES', 'Y']:
     try: 
         chain.train("user_input.txt")
     except (UnicodeDecodeError):
-        print("Unable to open file")#end
+        print("Unable to open file")

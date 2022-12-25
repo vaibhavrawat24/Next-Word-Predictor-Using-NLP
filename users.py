@@ -118,7 +118,7 @@ save = input("Do you wish to save your input? (y/n) ")
 if save in ['y', 'yes', 'YES', 'Y']:
     with open("user_input.txt","w") as f:
         f.write(' '.join(typed[:-1]))  
-
+#retrain
 retrain = input("Do you wish to retrain the chain with your input? (y/n) ")
 if retrain in ['y', 'yes', 'YES', 'Y']:
     try: 
